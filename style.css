@@ -25,10 +25,10 @@ footer a {
 
 .banner {
     text-align: center;
-    background-image: url(./assets/images/banner.png);
+    background-image: url(./assets/images/banner.png), linear-gradient(180deg, rgba(51, 169, 219, 0.084) 0%, rgba(51, 169, 219, 0.056) 99.99%, rgba(51, 169, 219, 0) 100%);
+    ;;
     background-size: contain;
     border-bottom: 1px solid #31A8DD;
-
 }
 
 .banner-content {
