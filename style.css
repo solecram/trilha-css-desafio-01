@@ -6,6 +6,10 @@ body {
     color: #fff;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+}
+
 .banner {
     text-align: center;
     background-image: url(./assets/images/banner.png);
@@ -23,7 +27,6 @@ body {
 .banner-content h1{
     font-weight: 900;
     font-size: 40px;
-    text-transform: uppercase;
     margin-bottom: 16px;
 
     /* Gradiente */
@@ -67,7 +70,6 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #33A8DB;
-    text-transform: uppercase;
     margin: 24px 0;
 }
 
@@ -105,4 +107,27 @@ body {
     margin-left: 100px;
     padding: 50px 0;
     text-shadow: 3px 2px 0px #33A8DB;
+}
+
+#professional-challenges {
+    width: 746px;
+    margin: 76px auto 91px;
+    text-align: center;
+}
+
+#professional-challenges h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #33A8DB;
+    margin-bottom: 32px;
+}
+
+#professional-challenges img {
+    margin-bottom: 40px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    line-height: 18px;
 }
