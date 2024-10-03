@@ -88,3 +88,21 @@ body {
 .module span {
     color: #33A8DB;
 }
+
+#transform-world {
+    background: url(./assets/images/woman-code.png) center/cover;
+    padding: 80px 0;
+    border-top: 2px solid #33A8DB;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#transform-world p {
+    width: 244px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46px;
+    text-transform: lowercase;
+    margin-left: 100px;
+    padding: 50px 0;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
